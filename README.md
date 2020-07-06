@@ -42,28 +42,28 @@ After running `sort-ios-images` your `output` directory will contain two directo
 Given `~/ferris/images/ios-imported` as input directory:
 
 ```bash
-/ferris/images/ios-imported/2019-02/IMG_3433.JPEG # you shot this
-/ferris/images/ios-imported/2019-02/IMG_3434.JPEG # you shot this
-/ferris/images/ios-imported/2019-02/IMG_3435.JPEG # you shot this
-/ferris/images/ios-imported/2019-02/LOHG2296.JPG  # you got this
-/ferris/images/ios-imported/2018-11/IMG_2155.JPEG # you shot this
-/ferris/images/ios-imported/2018-11/IMG_2156.MOV  # you shot this
-/ferris/images/ios-imported/2018-11/IMG_2157.JPEG # you shot this
-/ferris/images/ios-imported/2018-11/MYRR9748.JPG  # you got this
+~/ferris/images/ios-imported/2019-02/IMG_3433.JPEG # you shot this
+~/ferris/images/ios-imported/2019-02/IMG_3434.JPEG # you shot this
+~/ferris/images/ios-imported/2019-02/IMG_3435.JPEG # you shot this
+~/ferris/images/ios-imported/2019-02/LOHG2296.JPG  # you got this
+~/ferris/images/ios-imported/2018-11/IMG_2155.JPEG # you shot this
+~/ferris/images/ios-imported/2018-11/IMG_2156.MOV  # you shot this
+~/ferris/images/ios-imported/2018-11/IMG_2157.JPEG # you shot this
+~/ferris/images/ios-imported/2018-11/MYRR9748.JPG  # you got this
 ```
 
 `sort-ios-images` will produce this layout in `~/ferris/images/ios-sorted` output directory:
 
 ```bash
-/ferris/images/ios-sorted/match/2019-02/IMG_3433.JPEG # you shot this
-/ferris/images/ios-sorted/match/2019-02/IMG_3434.JPEG # you shot this
-/ferris/images/ios-sorted/match/2019-02/IMG_3435.JPEG # you shot this
-/ferris/images/ios-sorted/match/2018-11/IMG_2155.JPEG # you shot this
-/ferris/images/ios-sorted/match/2018-11/IMG_2156.MOV  # you shot this
-/ferris/images/ios-sorted/match/2018-11/IMG_2157.JPEG # you shot this
+~/ferris/images/ios-sorted/match/2019-02/IMG_3433.JPEG # you shot this
+~/ferris/images/ios-sorted/match/2019-02/IMG_3434.JPEG # you shot this
+~/ferris/images/ios-sorted/match/2019-02/IMG_3435.JPEG # you shot this
+~/ferris/images/ios-sorted/match/2018-11/IMG_2155.JPEG # you shot this
+~/ferris/images/ios-sorted/match/2018-11/IMG_2156.MOV  # you shot this
+~/ferris/images/ios-sorted/match/2018-11/IMG_2157.JPEG # you shot this
 
-/ferris/images/ios-sorted/nomatch/2019-02/LOHG2296.JPG  # you got this
-/ferris/images/ios-sorted/nomatch/2018-11/MYRR9748.JPG  # you got this
+~/ferris/images/ios-sorted/nomatch/2019-02/LOHG2296.JPG  # you got this
+~/ferris/images/ios-sorted/nomatch/2018-11/MYRR9748.JPG  # you got this
 ```
 
 ## License
